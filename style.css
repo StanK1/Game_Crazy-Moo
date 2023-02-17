@@ -1,0 +1,25 @@
+Body{
+  background-image: url("background.jpg");
+  background-color: #cccccc;
+height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#container {
+  border: 2px solid red;
+  width: 350px; height: 250px;
+  position: relative;
+  padding: 10px;
+}
+
+#container .img1 {
+  position: absolute;
+  width: 350px; height: 250px;
+}
+
+#container #canvas {
+  outline: 2px solid black;
+  transform: translate(50px, -250px);
+}
